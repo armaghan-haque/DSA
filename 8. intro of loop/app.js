@@ -11,12 +11,20 @@
 // }
 
 
-let age = 16;
-let country = "USA";
-let text = "You can Not drive!";
+// let age = 16;
+// let country = "USA";
+// let text = "You can Not drive!";
 
-if (country == "USA") {
-  if (age >= 16) {
-    text = "You can drive!";
-  }
+// if (country == "USA") {
+//   if (age >= 16) {
+//     text = "You can drive!";
+//   }
+// }
+
+if (condition1) {
+  // code to execute if condition1 is true
+} else if (condition2) {
+  // code to execute if the condition1 is false and condition2 is true
+} else {
+  // code to execute if the condition1 is false and condition2 is false
 }
