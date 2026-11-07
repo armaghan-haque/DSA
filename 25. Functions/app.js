@@ -16,11 +16,14 @@
 // let sum2 = add(50, 50);
 
 // Standard Function
-function multiply(a, b) {
-  return a * b;
-}
+// function multiply(a, b) {
+//   return a * b;
+// }
 
-// Function Expression
-const multiply = function(a, b) {
-  return a * b;
-};
+// // Function Expression
+// const multiply = function(a, b) {
+//   return a * b;
+// };
+
+const multiply = (a, b) => a * b;
+
