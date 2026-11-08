@@ -25,5 +25,10 @@
 //   return a * b;
 // };
 
-const multiply = (a, b) => a * b;
+// const multiply = (a, b) => a * b;
 
+function sayHello() {
+  return "Hello World";
+}
+
+let text = sayHello();
